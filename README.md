@@ -1,16 +1,38 @@
-# kuiz_ptm_123190083_plug_a
+# Kuis Praktikum TPM
+## Mentor   : Rezky Putratama Raharjo | Abdullah Ubab Ali Murtadlo
 
-A new Flutter project.
+## Nama     : Muhammad Rizqi
+## NIM      : 123190083
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Buatlah aplikasi mobile yang akan menampilkan list mobil dari sebuah perusahaan rental mobil, Berikut ketentuan aplikasi yang harus dibuat :
+- Minimal menggunakan 2 halaman (Halaman List Mobil dan Halaman Detail Mobil)
+- Menggunakan data yang telah disediakan
+- Tampilan UI dibuat semirip mungkin
+- Codingan harus rapi dengan menggunakan beberapa file/class yang berbeda dan
+menggunakan method pada fungsi tertentu
+- Tidak ada error pada aplikasi
 
-A few resources to get you started if this is your first Flutter project:
+### Ketentuan kuis :
+- Harus menerapkan seluruh ketentuan aplikasi
+- Fitur tambahan diluar ketentuan aplikasi diperbolehkan untuk poin bonus (max 15 poin)
+- Pengerjaan dilakukan selama 2 jam
+- Pengumpulan dilakukan menggunakan Link Project Github
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Detail Halaman :
+- Halaman List Mobil
+o Menampilkan list mobil dengan menggunakan Card atau InkWell, tuliskan
+nama brand dan model mobil, serta harga sewa per harinya.
+o Ketika Card ditekan akan pindah ke halaman detail mobil
+- Halaman Detail Mobil
+o Menampilkan nama brand dan model mobil pada appBar.
+o Menampilkan List gambar dari mobil tersebut dengan bentuk horizontal
+(atau mirip seperti carousel).
+o Menampilkan detail mobil dengan menampilkan brand mobil, model
+mobil, tahun keluaran mobil, biaya sewa mobil, serta status mobil tersebut
+apakah tersedia atau tidak tersedia. Tulisan status berwarna hijau jika
+tersedia (true), dan merah jika tidak tersedia (false).
+o Terdapat tombol pesan yang ketika ditekan akan menampilkan snackbar
+berhasil memesan dan merubah status mobil menjadi tidak tersedia. Jika
+status mobil tidak tersedia tombol tersebut menjadi disable.
+o Menambah deskripsi tentang mobil dibawah tombol pesan.
