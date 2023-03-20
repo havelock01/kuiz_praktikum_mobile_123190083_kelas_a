@@ -14,6 +14,7 @@ class _ListMobilState extends State<ListMobil> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Rental Mobil'),
       ),
       body: ListView.builder(
@@ -36,6 +37,8 @@ class _ListMobilState extends State<ListMobil> {
                 ),
                 title: Text(car.brand + " " + car.model),
                 subtitle: Text(car.rentalPricePerDay + " / hari"),
+                contentPadding:
+                    EdgeInsets.symmetric(vertical: 25.0, horizontal: 15.0),
               ),
             ),
           );
